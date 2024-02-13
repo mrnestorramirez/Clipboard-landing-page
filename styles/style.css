@@ -188,9 +188,10 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10vw;
+  width: 90%;
 }
 .clipboard__sponsors > * {
-  max-height: 5vmax;
+  max-height: 5vw;
 }
 .clipboard__footer-nav {
   background-color: whitesmoke;
