@@ -10,6 +10,12 @@ $ff: 'Bai Jamjuree', sans-serif;
 $fw-400: 400; 
 $fw-600: 600;
 
+h1 {
+	font-size: 2rem;
+	font-weight: $fw-600;
+	color: $dark-grayish-blue;
+}
+
 h2 {
 	font-size: 1.85rem;
 	font-weight: $fw-600;
