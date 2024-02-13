@@ -111,8 +111,12 @@ body {
 	}
 
 	&__info-text {
+		max-width: 90%;
 		margin-block: 0 3em;
-		max-width: 55ch;
+		
+		& p {
+			max-width: 55ch;
+		}
 		
 		& h2 {
 			margin-block: .5em;
