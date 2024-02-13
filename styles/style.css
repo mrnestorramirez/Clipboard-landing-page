@@ -1,0 +1,313 @@
+h2 {
+  font-size: 1.85rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h3 {
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+section {
+  max-width: 85%;
+}
+
+img,
+svg,
+canvas,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.85rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h3 {
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+body {
+  font-size: 18px;
+  background-image: url("/images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 12.5%;
+}
+
+.clipboard {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.clipboard__logo {
+  padding: 8em 0 3em;
+  max-width: 60%;
+}
+.clipboard__devices-image {
+  margin-block-end: 3em;
+}
+.clipboard__download-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em auto;
+}
+.clipboard__download-section p {
+  max-width: 50ch;
+}
+.clipboard__download-section [class*=section--btn] {
+  padding: 0.85em 3em;
+  color: white;
+  border-radius: 2.5em;
+  border: none;
+  width: 100%;
+  max-width: 15em;
+  font-weight: 400;
+  cursor: pointer;
+}
+.clipboard__download-section [class*=section--btn]:active {
+  color: whitesmoke;
+  box-shadow: none;
+  translate: 0 3px;
+}
+.clipboard__download-section [class*=section--btn]:focus {
+  border: none;
+  outline-offset: 10px;
+}
+.clipboard__download-section [class*=section--btn]:hover {
+  cursor: pointer;
+}
+.clipboard__download-section [class*=btn-ios] {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 3px 1px color-mix(in srgb, hsl(171, 66%, 44%), black 20%);
+  margin-top: 1.5em;
+}
+.clipboard__download-section [class*=btn-ios]:hover {
+  background-color: color-mix(in srgb, hsl(171, 66%, 44%), white 20%);
+}
+.clipboard__download-section [class*=btn-mac] {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 3px 1px color-mix(in srgb, hsl(233, 100%, 69%), black 20%);
+  margin-top: 1em;
+  margin-bottom: 8em;
+}
+.clipboard__download-section [class*=btn-mac]:hover {
+  background-color: color-mix(in srgb, hsl(233, 100%, 69%), white 20%);
+}
+.clipboard__advantages {
+  margin-block: 0 10em;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+.clipboard__advantages .advantage:not(:first-child) {
+  margin-top: 3em;
+}
+.clipboard__advantages .advantage > h3 {
+  margin-block: 0.5em;
+}
+.clipboard__utilities {
+  margin-block: 4em 10em;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+.clipboard__utilities .utility:not(:first-child) {
+  margin-top: 3em;
+}
+.clipboard__utilities .utility-image {
+  margin: 1.5em auto;
+}
+.clipboard__utilities .utility > h3 {
+  margin-block: 0.5em;
+}
+.clipboard__info-text {
+  margin-block: 0 3em;
+  max-width: 55ch;
+}
+.clipboard__info-text h2 {
+  margin-block: 0.5em;
+}
+.clipboard__sponsors {
+  margin-block: 0 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+}
+.clipboard__sponsors > * {
+  max-height: 7.5vmax;
+}
+.clipboard__footer-nav {
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.clipboard__footer-nav .footer-nav--list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.clipboard__footer-nav .footer-nav--list .footer-nav--item * {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+.clipboard__footer-nav .footer-nav--list .footer-nav--item *:hover {
+  color: hsl(171, 66%, 44%);
+}
+.clipboard__footer-nav .social {
+  margin-block-start: 1.5em;
+  display: flex;
+  gap: 2em;
+}
+.clipboard__footer-nav .social :hover {
+  cursor: pointer;
+  filter: invert(60%) sepia(46%) saturate(668%) hue-rotate(122deg) brightness(94%) contrast(84%);
+}
+.clipboard__footer-nav .logo-footer {
+  max-width: 20%;
+  margin-block-end: 0.5em;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-image: url("/images/bg-header-desktop.png");
+  }
+  .clipboard .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  .clipboard .btn-container * {
+    white-space: nowrap;
+    flex-grow: 1;
+    flex-basis: 100%;
+    margin-inline: 0;
+    margin-block: 2em 5em;
+  }
+}
+@media (min-width: 800px) {
+  .clipboard__advantages {
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+    max-width: 95%;
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: start;
+  }
+  .clipboard__advantages .advantage {
+    text-align: left;
+  }
+  .clipboard__advantages .advantage p {
+    max-width: 35ch;
+  }
+  .clipboard__advantages img {
+    width: 65%;
+    translate: -2em;
+  }
+  .clipboard__sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    max-width: 90%;
+  }
+  .clipboard__sponsors .sponsor {
+    margin: 0;
+    flex: 1;
+  }
+  .clipboard__utilities {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    max-width: 90%;
+  }
+  .clipboard__utilities :is(.utility, .utility:not(:first-child)) {
+    margin-block: 0;
+    flex-basis: 100%;
+  }
+  .clipboard__utilities :first-child .utility-image {
+    margin-block: 1.3em;
+  }
+  .clipboard__footer-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .clipboard__footer-nav .logo-footer {
+    max-width: 10%;
+  }
+  .clipboard__footer-nav .footer-nav--list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    -moz-column-gap: 2em;
+         column-gap: 2em;
+    row-gap: 1.5em;
+  }
+  .clipboard__footer-nav .footer-nav--list .footer-nav--item {
+    width: calc(33.3333333333% - 2em);
+  }
+  .clipboard__footer-nav .footer-nav--list .footer-nav--item:nth-child(2) {
+    order: 3;
+  }
+  .clipboard__footer-nav .footer-nav--list .footer-nav--item:nth-child(3) {
+    order: 1;
+  }
+  .clipboard__footer-nav .footer-nav--list .footer-nav--item:nth-child(4) {
+    order: 4;
+  }
+  .clipboard__footer-nav .footer-nav--list .footer-nav--item:nth-child(5) {
+    order: 2;
+  }
+  .clipboard__footer-nav .footer-nav--list .footer-nav--item a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+  }
+  .clipboard__footer-nav .footer-nav--list .footer-nav--item a:hover {
+    color: hsl(171, 66%, 44%);
+  }
+}/*# sourceMappingURL=style.css.map */

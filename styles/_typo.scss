@@ -1,0 +1,29 @@
+@import 'colors';
+
+//  Typography
+
+$fs: 18px;
+
+//  Fonts
+
+$ff: 'Bai Jamjuree', sans-serif;
+$fw-400: 400; 
+$fw-600: 600;
+
+h2 {
+	font-size: 1.85rem;
+	font-weight: $fw-600;
+	color: $dark-grayish-blue;
+}
+
+h3 {
+	font-size: 1.55rem;
+	font-weight: $fw-600;
+	color: $dark-grayish-blue;
+}
+
+p {
+	color: $grayish-blue;
+	line-height: 1.5;
+	font-size: .95rem;
+}

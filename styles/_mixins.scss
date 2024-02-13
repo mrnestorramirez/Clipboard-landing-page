@@ -1,0 +1,12 @@
+@import 'typo';
+
+@mixin btn {
+	padding: .85em 3em;
+	color: white;
+	border-radius: 2.5em;
+	border: none;
+	width: 100%;
+	max-width: 15em;
+	font-weight: $fw-400;
+	cursor: pointer;
+}
